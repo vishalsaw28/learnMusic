@@ -1,5 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
-  return <h1>Learn music with us</h1>;
+  return (
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]"></main>
+  );
 }
