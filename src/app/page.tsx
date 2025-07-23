@@ -1,6 +1,8 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import { GridBackgroundDemo } from "@/components/GridBackground";
 import HeroSection from "@/components/HeroSection";
 import StickyScrollRevel from "@/components/StickyScrollRevel";
+import MusicSchoolTestimonialCards from "@/components/TestimonialCards";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <FeaturedCourses />
       <StickyScrollRevel />
+      <MusicSchoolTestimonialCards />
     </main>
   );
 }
