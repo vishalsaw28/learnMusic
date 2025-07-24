@@ -4,6 +4,10 @@ import HeroSection from "@/components/HeroSection";
 import StickyScrollRevel from "@/components/StickyScrollRevel";
 import MusicSchoolTestimonialCards from "@/components/TestimonialCards";
 import Image from "next/image";
+import UpcomingWebinar from "@/components/UpcomingWebinar";
+import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
+//import Mateor from "@/components/ui/MateorShower";
 
 export default function Home() {
   return (
@@ -12,6 +16,9 @@ export default function Home() {
       <FeaturedCourses />
       <StickyScrollRevel />
       <MusicSchoolTestimonialCards />
+      <UpcomingWebinar />
+      <Instructors />
+      <Footer />
     </main>
   );
 }
