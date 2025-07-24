@@ -9,12 +9,12 @@ import { BackgroundGradient } from "./ui/background-gradient";
 
 interface Course {
   id: number;
-  title: String;
-  slug: String;
-  description: String;
+  title: string;
+  slug: string;
+  description: string;
   price: number;
-  instructor: String;
-  isFeatured: Boolean;
+  instructor: string;
+  isFeatured: boolean;
   // image: "/courses/guitar.jpg";
 }
 
