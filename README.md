@@ -21,6 +21,7 @@ learnMusic-main/
 ├── postcss.config.mjs
 ├── tsconfig.json
 ├── public/
+<<<<<<< HEAD
 │ ├── file.svg
 │ ├── globe.svg
 │ ├── next.svg
@@ -95,6 +96,82 @@ Linting ESLint + TypeScript ESLint config
 Assets Local static images in /public/courses/
 Data Handling Local JSON file (music_courses.json)
 Build Tool Next.js built-in bundler (Turbopack/Vite not used)
+=======
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   ├── window.svg
+│   └── courses/
+│       ├── blues.jpg
+│       ├── classical-music.jpg
+│       ├── drumming.jpg
+│       ├── edm.jpg
+│       ├── guitar.jpg
+│       ├── jazz.jpg
+│       ├── music-prod.jpg
+│       ├── piano.jpg
+│       ├── song-writing.jpg
+│       └── vocalist.jpg
+├── src/
+│   ├── middleware.ts
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── contact/
+│   │   │   └── page.tsx
+│   │   ├── courses/
+│   │   │   └── page.tsx
+│   │   ├── sign-in/
+│   │   │   └── [[...sign-in]]/page.tsx
+│   │   └── sign-up/
+│   │       └── [[...sign-up]]/page.tsx
+│   ├── components/
+│   │   ├── FeaturedCourses.tsx
+│   │   ├── Footer.tsx
+│   │   ├── GridBackground.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── Instructors.tsx
+│   │   ├── MeteorShower.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── StickyScrollRevel.tsx
+│   │   ├── TestimonialCards.tsx
+│   │   ├── UpcomingWebinar.tsx
+│   │   └── ui/
+│   │       ├── 3d-card.tsx
+│   │       ├── Spotlight.tsx
+│   │       ├── animated-tooltip.tsx
+│   │       ├── background-gradient.tsx
+│   │       ├── card-hover-effect.tsx
+│   │       ├── infinite-moving-cards.tsx
+│   │       ├── meteors.tsx
+│   │       ├── moving-border.tsx
+│   │       ├── navbar-menu.tsx
+│   │       ├── sticky-scroll-reveal.tsx
+│   │       └── wavy-background.tsx
+│   ├── data/
+│   │   └── music_courses.json
+│   └── lib/
+│       └── utils.ts
+
+⚙️ Technology Stack
+Category	Technology
+Framework	Next.js 14+ (App Router)
+
+Language	TypeScript
+
+Styling	Tailwind CSS
+, custom animations
+UI Components	ShadCN UI, custom UI utilities (3D cards, tooltips, gradients, animations)
+Authentication	Likely Clerk
+ or similar (based on /sign-in and /sign-up routes)
+Linting	ESLint + TypeScript ESLint config
+Assets	Local static images in /public/courses/
+Data Handling	Local JSON file (music_courses.json)
+Build Tool	Next.js built-in bundler (Turbopack/Vite not used)
+>>>>>>> a1ec9c4ce6317913583dfa5b0f03e7be8fbef379
 🧩 Key Directories Explained
 /src/app
 
@@ -157,6 +234,7 @@ npm install
 3️⃣ Run the Development Server
 npm run dev
 
+<<<<<<< HEAD
 Visit http://localhost:3000
 to view it in your browser.
 
@@ -166,6 +244,18 @@ npm run dev Starts local development server
 npm run build Builds the app for production
 npm run start Starts the production server
 npm run lint Runs ESLint checks
+=======
+
+Visit http://localhost:3000
+ to view it in your browser.
+
+🧰 Available Scripts
+Command	Description
+npm run dev	Starts local development server
+npm run build	Builds the app for production
+npm run start	Starts the production server
+npm run lint	Runs ESLint checks
+>>>>>>> a1ec9c4ce6317913583dfa5b0f03e7be8fbef379
 📦 Deployment
 
 You can easily deploy this app to platforms like:
