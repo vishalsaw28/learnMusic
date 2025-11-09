@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json";
+import { SignUpButton } from "@clerk/nextjs";
 
 function page() {
   return (
@@ -40,19 +41,29 @@ function page() {
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-20">
+                <div>
+                  <CardItem
+                    translateZ={20}
+                    as="div"
+                    className="px-4 py-2 rounded-xl text-xs font-normal"
+                  >
+                    <a
+                      href="https://open.spotify.com/playlist/37i9dQZF1DX9RwfGbeGQwP"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-emerald-400 hover:text-emerald-300 font-medium"
+                    >
+                      🎧 Listen on Spotify →
+                    </a>
+                  </CardItem>
+                </div>
+
                 <CardItem
                   translateZ={20}
-                  as="button"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                >
-                  Try now →
-                </CardItem>
-                <CardItem
-                  translateZ={20}
-                  as="button"
+                  as="div"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Sign up
+                  <SignUpButton>Sign Up</SignUpButton>
                 </CardItem>
               </div>
             </CardBody>
