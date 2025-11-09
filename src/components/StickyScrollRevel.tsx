@@ -21,7 +21,7 @@ const musicSchoolContent = [
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <img
-          src="/linear.webp"
+          src="/next.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
